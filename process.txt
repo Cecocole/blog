@@ -5,3 +5,10 @@
     3.下载express框架 nopm install express --save 
         --save将当前下载的第三方模块记录在项目的描述文件中
     4.利用express创建web服务器
+    5.初始化本地仓库
+        1.git init 在项目根目录下初始化本地仓库
+        2.增加git忽略清单文件 目的是node_modules文件夹忽略掉不让git管理
+        3.git add . 将项目文件添加到暂存区
+        4.git commit -m 初始项目 将代码提交到本地仓库
+        5.登录github创建远程仓库
+        6.将本地仓库提交到远程仓库
